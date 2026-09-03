@@ -1,0 +1,36 @@
+# 🚀 BuraScript
+
+> A lightweight, intuitive, custom programming language built on JavaScript.
+
+BuraScript is a custom-designed programming language engineered to run directly in the browser via an interactive Web Playground.
+
+---
+
+## ✨ Key Features & Commands
+
+* **Simple Syntax**: Straightforward command-based architecture designed for readability.
+* **Interactive Web Playground**: Write and execute BuraScript code instantly in your browser.
+* **Core Command Set**:
+  * **Console Output**: `say [message]`
+  * **Arithmetic Operations**: `tasu` (Add), `hiku` (Subtract), `kakeru` (Multiply), `waru` (Divide)
+  * **Variables**: `var [variable_name] = [value]`, `show [variable_name]`
+  * **Control Flow**: `if` (Conditional execution), `loop` (Repetition)
+  * **Extended Features**: `rand` (Random number generator), `list` / `push` / `showlist` (Array handling)
+
+---
+
+## 🎮 Quick Start (Web Playground)
+
+1. Open `index.html` locally or access the deployed GitHub Pages URL.
+2. Enter your BuraScript code into the editor.
+3. Click **▶ Run** to view execution logs in the console.
+
+### Code Sample
+
+```text
+// Random Dice Roll & Conditional Logic
+rand 1 6 dice
+say Dice Roll Result:
+show dice
+
+if dice == 6 say Congratulations! You rolled a 6!
